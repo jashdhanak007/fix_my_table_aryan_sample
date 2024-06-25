@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: my-node-api
+    env: node
+    plan: free
+    buildCommand: 'npm install'
+    startCommand: 'npm start'
+    envVars:
+      - key: DATABASE_URL
+        value: mysql://u816834732_fixmytable:abcdfixmytable!1A@localhost/u816834732_fixmytable
