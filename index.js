@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000;
 
 // Sequelize setup
 const sequelize = new Sequelize('u816834732_fixmytable', 'u816834732_fixmytable', 'abcdfixmytable!1A', {
-  host: 'localhost',
+  host: 'auth-db1496.hstgr.io',
   dialect: 'mysql',
 });
 

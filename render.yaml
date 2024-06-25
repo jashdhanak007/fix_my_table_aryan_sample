@@ -7,4 +7,4 @@ services:
     startCommand: 'npm start'
     envVars:
       - key: DATABASE_URL
-        value: mysql://u816834732_fixmytable:abcdfixmytable!1A@localhost/u816834732_fixmytable
+        value: mysql://u816834732_fixmytable:abcdfixmytable!1A@auth-db1496.hstgr.io/u816834732_fixmytable
